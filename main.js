@@ -31,13 +31,3 @@ function displayData(e){
 	}
 	return textvalues;
 }
-
-$(document).ready(function() {
-
-	$("update").click(function(){   
-		$("#here").load("load-table.php");
-	});
-
-
-
-});
